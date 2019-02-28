@@ -17,20 +17,20 @@ func main(){
 	// 第一层和最后一层全是*
 	//中间第一个和最后一个是*
 
-	var  totallevel int =3
+	var  totallevel int =6
 
 	//i表示层数
 	for i:=1;i<= totallevel;i++{
 		//打印*前打印空格
 		for k:=1;k<=totallevel-i;k++{
-			fmt.Print("")
+			fmt.Print(" ")
 		}
 		//j表示每层打印多少*
 		for j:= 1;j<= 2*i -1;j++{
 			if j==1||j== 2*i-1||i==totallevel{
 				fmt.Print("*")
 			}else{
-				fmt.Print("")
+				fmt.Print(" ")
 			}
 		}
 		fmt.Println()
