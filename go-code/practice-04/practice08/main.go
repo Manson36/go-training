@@ -33,5 +33,5 @@ func main(){
 	fmt.Printf("bytes=%v \n",bytes)
 
 	str =string([]byte{87,55,44})
-	fmt.Printf("str=%v \n",str)
+	fmt.Printf("str=%v",str )
 }
