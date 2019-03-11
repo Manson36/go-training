@@ -56,6 +56,6 @@ func main() {
 
 	i:=10
 	j:=20
-	i,j = j,i 
+	i,j = j,i
 	fmt.Println(i,j)
 }
