@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7ac38cb5-74e3-4b60-b837-860332b65d15" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/go-code/practice-20/practice08/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/go-code/practice-20/practice08/main.go" afterDir="false" />
-    </list>
+    <list default="true" id="7ac38cb5-74e3-4b60-b837-860332b65d15" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,27 +14,48 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/go-code/practice-20/practice08/main.go">
+        <entry file="file://$PROJECT_DIR$/go-code/practice-21/practice01/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="29" lean-forward="true" selection-end-line="88" selection-end-column="5" />
+            <state relative-caret-position="280">
+              <caret line="58" column="19" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
               <folding>
-                <element signature="e#37#54#0" />
-                <element signature="n#!!block;n#GetSum#0" />
-                <element signature="n#!!block;n#Set#0" />
-                <element signature="n#!!block;n#Print#0" />
+                <element signature="e#14#42#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/go-code/practice-21/practice02/main.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="261">
+              <caret line="49" column="1" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
+              <folding>
+                <element signature="e#14#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/go-code/practice-21/practice03/main.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="185">
+              <caret line="26" column="21" selection-end-line="29" selection-end-column="1" />
+              <folding>
+                <element signature="e#14#38#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/go-code/practice-21/practice01/main.go">
+        <entry file="file://$PROJECT_DIR$/go-code/practice-21/practice04/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="58" column="19" lean-forward="true" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
+            <state relative-caret-position="261">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
               <folding>
-                <element signature="e#14#42#0" expanded="true" />
+                <element signature="e#14#53#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -66,9 +85,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/go-code/practice-13/practice04/main.go" />
-        <option value="$PROJECT_DIR$/go-code/practice-13/practice05/main.go" />
-        <option value="$PROJECT_DIR$/go-code/practice-13/practice06/main.go" />
         <option value="$PROJECT_DIR$/go-code/practice-13/practice07/main.go" />
         <option value="$PROJECT_DIR$/go-code/practice-14/practice01/main.go" />
         <option value="$PROJECT_DIR$/go-code/practice-14/practice02/01/main.go" />
@@ -117,6 +133,9 @@
         <option value="$PROJECT_DIR$/go-code/practice-20/practice07/main.go" />
         <option value="$PROJECT_DIR$/go-code/practice-20/practice08/main.go" />
         <option value="$PROJECT_DIR$/go-code/practice-21/practice01/main.go" />
+        <option value="$PROJECT_DIR$/go-code/practice-21/practice02/main.go" />
+        <option value="$PROJECT_DIR$/go-code/practice-21/practice03/main.go" />
+        <option value="$PROJECT_DIR$/go-code/practice-21/practice04/main.go" />
       </list>
     </option>
   </component>
@@ -218,6 +237,27 @@
               <item name="go-code" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="practice-21" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="practice01" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="go-training" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="go-code" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="practice-21" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="practice02" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="go-training" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="go-code" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="practice-21" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="practice03" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="go-training" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="go-code" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="practice-21" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="practice04" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -328,12 +368,12 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49172577" visible="true" weight="0.13842663" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49172577" visible="true" weight="0.13842663" />
       <window_info id="Structure" order="1" sideWeight="0.50827426" side_tool="true" weight="0.1376702" />
       <window_info id="Favorites" order="2" sideWeight="0.5057283" side_tool="true" weight="0.13615733" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33060557" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33060557" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -412,24 +452,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/go-code/practice-14/practice02/01/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="82" column="8" selection-end-line="100" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/go-code/practice-14/practice02/02/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-          <folding>
-            <element signature="e#14#91#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/go-code/practice-15/practice01/main.go" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_代码.zip/代码/chapter12/testMyAccount.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-855" />
@@ -821,7 +843,7 @@
     <entry file="file://$PROJECT_DIR$/go-code/practice-20/practice08/main.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
-          <caret line="29" lean-forward="true" selection-end-line="88" selection-end-column="5" />
+          <caret line="29" selection-end-line="88" selection-end-column="5" />
           <folding>
             <element signature="e#37#54#0" />
             <element signature="n#!!block;n#GetSum#0" />
@@ -834,9 +856,39 @@
     <entry file="file://$PROJECT_DIR$/go-code/practice-21/practice01/main.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
-          <caret line="58" column="19" lean-forward="true" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
+          <caret line="58" column="19" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
           <folding>
             <element signature="e#14#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/go-code/practice-21/practice02/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="49" column="1" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
+          <folding>
+            <element signature="e#14#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/go-code/practice-21/practice03/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="26" column="21" selection-end-line="29" selection-end-column="1" />
+          <folding>
+            <element signature="e#14#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/go-code/practice-21/practice04/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="e#14#53#0" expanded="true" />
           </folding>
         </state>
       </provider>
