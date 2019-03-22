@@ -34,6 +34,6 @@ func ageMinOrMax(m string, a ...int)int {
 		return min
 	}else {
 		e := -1
-		return e 
+		return e
 	}
 }
