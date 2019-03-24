@@ -7,9 +7,10 @@ import (
 
 func main() {
 
-	i,p := a()
+	i, p := a()
 	fmt.Println("return:",i,p,time.Now())
 }
+
 func a() (i int, p *int) {
 
 	defer func(i int) {

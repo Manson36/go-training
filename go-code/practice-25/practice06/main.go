@@ -25,5 +25,5 @@ func throwsPanic(f func()) (b bool) {
 		}
 	}()
 	f()
-	return 
+	return
 }
