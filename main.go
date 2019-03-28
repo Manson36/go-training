@@ -2,8 +2,9 @@ package main
 
 import (
 	"fmt"
+	"github.com/go-redis/redis"
 )
 
 func main(){
-	fmt.Println("Helle World!")
+	fmt.Println(redis.NewClient)
 }

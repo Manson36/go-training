@@ -117,3 +117,32 @@ git commit -m "[change] change some"
 git remote add ;'origin https://github.com/Manson36/go-training.git
 git remote -v
 git push -u origin master
+
+## go包管理器
+
+### govendor
+
+在go 1.11版本之前，govendor是最好用的包管理器，没有之一
+
+go get是go语言自带的包管理器，默认会把包下载到$GOPATH/src
+
+go get -u：-u参数表示下载并更新包
+
+go1.11版本之前，除了govendor以外，其他的包管理工具的缺点：
+
+1. go语言的包很多都被墙了，下载速度慢，当把项目移交给其他人时，其他人需要能够翻墙下载
+2. 版本问题，比如说：本次使用的redis包的版本是1.0，测试无问题，开发其他项目时，又下载更新了一次redis包，这次包可能存在未检测出的bug。
+
+govendor借助了go语言vendor机制，消除了上述缺点：
+1. govendor会把项目依赖的包下载到当前目录下
+2. govendor会通过vendor.json文件维护依赖包的版本
+
+govendor使用：
+1. 如果当前项目所在的目录并没有在GOPATH下，可在git bash中临时的设置一下GOPATH：`export GOPATH=C:\\Users\\Manson\\Desktop\\go`
+1. 下载govendor：`go get -u github.com/kardianos/govendor`
+2. 进入到项目目录，执行`govendor.exe init`
+3. 下载包，执行`govendor.exe fetch github.com/go-redis/redis`
+
+搜索开源的第三方包网站：https://godoc.org/
+
+### go module
