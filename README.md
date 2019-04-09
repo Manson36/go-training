@@ -56,7 +56,8 @@ git
 1. 首先在github创建一个仓库，repositories下面，New新建
 2. 在自己电脑上，创建一个文件夹，用来对应github上的代码仓库
 3. 进入电脑上的文件夹，用`git init`命令初始化文件夹，此时文件夹为受git管理的文件夹，文件夹下多出`.git`隐藏目录
-4. 在当前文件夹内，配置使用git工具的用户名和email，`git config user.name "xxx"`，`git config user.email "xxx"`，此时`.git/config`文件就会多出两行内容（--global参数指定全局信息）
+4. 在当前文件夹内，配置使用git工具的用户名和email，`git config user.name "xxx"`，`git config user.email "xxx"`，
+   此时`.git/config`文件就会多出两行内容（--global参数指定全局信息）
 5. 在目录中创建README.md文件（其他文件），写入一点内容：`echo "# go-training" >> README.md`
 6. `git status`，查看当前git的状态
 
@@ -81,6 +82,7 @@ nothing added to commit but untracked files present (use "git add" to track)
 11. 使用`git push -u addr_name branch`，将本地文件推送（push）到addr_name地址下的branch分支，例如：`git push -u origin master`
 
 推送成功提示：
+https://github.com/Manson36/project01.git
 
 ```bash
 $ git push -u origin master
