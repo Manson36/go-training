@@ -148,3 +148,9 @@ govendor使用：
 搜索开源的第三方包网站：https://godoc.org/
 
 ### go module
+
+go语言1.11版本之后支持的包管理工具，已经被设定为标准的包管理工具。
+
+- 第一步，检查go语言的版本信息，是否是1.11以上，git bash中输入`go version`：`go version go1.11.5 windows/amd64`
+- 第二步，开启GO111MODULE环境变量，激活go module功能：`export GO111MODULE=on`
+
