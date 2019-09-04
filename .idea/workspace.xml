@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ac38cb5-74e3-4b60-b837-860332b65d15" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/datastructured/linkdouble/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datastructured/linksinglecircle/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/datastructured/linksingle/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/datastructured/linksingle/main.go" afterDir="false" />
     </list>
@@ -16,11 +18,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/datastructured/linksingle/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="114" column="32" lean-forward="true" selection-start-line="114" selection-start-column="32" selection-end-line="114" selection-end-column="32" />
+            <state relative-caret-position="197">
+              <caret line="83" column="42" selection-start-line="83" selection-start-column="42" selection-end-line="83" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/datastructured/linkdouble/main.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="287">
+              <caret line="136" column="64" selection-start-line="136" selection-start-column="64" selection-end-line="136" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/datastructured/linksinglecircle/main.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="268">
+              <caret line="118" column="22" lean-forward="true" selection-start-line="118" selection-start-column="22" selection-end-line="118" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -28,8 +48,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/datastructured/singlequeue/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1748">
+            <state relative-caret-position="444">
               <caret line="96" selection-start-line="96" selection-end-line="96" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/datastructured/circleQueue/main.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1235">
+              <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="24" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -37,7 +66,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/datastructured/sparsearray/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1406">
+            <state relative-caret-position="437">
               <caret line="76" selection-start-line="76" selection-end-line="76" />
             </state>
           </provider>
@@ -64,9 +93,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/go-code/practice-24/practice07/main.go" />
-        <option value="$PROJECT_DIR$/go-code/practice-25/practice01/main.go" />
-        <option value="$PROJECT_DIR$/go-code/practice-25/practice02/main.go" />
         <option value="$PROJECT_DIR$/go-code/practice-25/practice04/main.go" />
         <option value="$PROJECT_DIR$/go-code/practice-25/practice05/main.go" />
         <option value="$PROJECT_DIR$/go-code/practice-25/practice06/main.go" />
@@ -115,10 +141,13 @@
         <option value="$PROJECT_DIR$/datastructured/circleQueue/mian.go" />
         <option value="$PROJECT_DIR$/datastructured/circleQueue/main.go" />
         <option value="$PROJECT_DIR$/datastructured/linksingle/main.go" />
+        <option value="$PROJECT_DIR$/datastructured/linkdouble/main.go" />
+        <option value="$PROJECT_DIR$/datastructured/linksinglecircle/mian.go" />
+        <option value="$PROJECT_DIR$/datastructured/linksinglecircle/main.go" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-9" />
     <option name="y" value="1" />
     <option name="width" value="827" />
@@ -152,7 +181,19 @@
               <item name="go-training" type="b2602c69:ProjectViewProjectNode" />
               <item name="go-training" type="462c0819:PsiDirectoryNode" />
               <item name="datastructured" type="462c0819:PsiDirectoryNode" />
+              <item name="linkdouble" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="go-training" type="b2602c69:ProjectViewProjectNode" />
+              <item name="go-training" type="462c0819:PsiDirectoryNode" />
+              <item name="datastructured" type="462c0819:PsiDirectoryNode" />
               <item name="linksingle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="go-training" type="b2602c69:ProjectViewProjectNode" />
+              <item name="go-training" type="462c0819:PsiDirectoryNode" />
+              <item name="datastructured" type="462c0819:PsiDirectoryNode" />
+              <item name="linksinglecircle" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="go-training" type="b2602c69:ProjectViewProjectNode" />
@@ -207,21 +248,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build main.go">
-    <configuration name="go build main.go (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build main.go (2)">
+    <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-training" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/go-code/practice-33/practice03/main.go" />
+      <filePath value="$PROJECT_DIR$/datastructured/linkdouble/main.go" />
       <package value="github.com/go-training" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build main.go (3)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build main.go (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-training" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/datastructured/sparsearray/main.go" />
+      <filePath value="$PROJECT_DIR$/datastructured/linksinglecircle/main.go" />
       <package value="github.com/go-training" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
@@ -255,11 +296,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build main.go (2)" />
+        <item itemvalue="Go Build.go build main.go (1)" />
         <item itemvalue="Go Build.go build main.go" />
         <item itemvalue="Go Build.go build main.go (5)" />
         <item itemvalue="Go Build.go build main.go (4)" />
-        <item itemvalue="Go Build.go build main.go (3)" />
-        <item itemvalue="Go Build.go build main.go (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -273,7 +314,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49172577" visible="true" weight="0.16641453" />
@@ -281,7 +322,7 @@
       <window_info id="Favorites" order="2" sideWeight="0.5057283" side_tool="true" weight="0.13615733" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2569558" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2569558" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -368,26 +409,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/go-code/practice-25/practice04/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#14#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/go-code/practice-25/practice03/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#14#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/go-code/practice-26/practice01/model.go" />
     <entry file="file://$PROJECT_DIR$/go-code/practice-26/practice01/main.go">
       <provider selected="true" editor-type-id="text-editor">
@@ -718,34 +739,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/datastructured/circleQueue/main.go">
+    <entry file="file://$PROJECT_DIR$/datastructured/sparsearray/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="e#14#41#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="437">
+          <caret line="76" selection-start-line="76" selection-end-line="76" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/datastructured/singlequeue/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1748">
+        <state relative-caret-position="444">
           <caret line="96" selection-start-line="96" selection-end-line="96" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/datastructured/sparsearray/main.go">
+    <entry file="file://$PROJECT_DIR$/datastructured/circleQueue/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1406">
-          <caret line="76" selection-start-line="76" selection-end-line="76" />
+        <state relative-caret-position="-1235">
+          <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="24" selection-end-column="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/datastructured/linksingle/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="114" column="32" lean-forward="true" selection-start-line="114" selection-start-column="32" selection-end-line="114" selection-end-column="32" />
+        <state relative-caret-position="197">
+          <caret line="83" column="42" selection-start-line="83" selection-start-column="42" selection-end-line="83" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datastructured/linkdouble/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="136" column="64" selection-start-line="136" selection-start-column="64" selection-end-line="136" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datastructured/linksinglecircle/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="118" column="22" lean-forward="true" selection-start-line="118" selection-start-column="22" selection-end-line="118" selection-end-column="22" />
         </state>
       </provider>
     </entry>

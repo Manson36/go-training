@@ -6,10 +6,11 @@ type HeroNode struct {
 	no int
 	name string
 	nickName string
-	next *HeroNode
+	pre  *HeroNode //指向前一个结点
+	next *HeroNode //指向下一个节点
 }
 
-//给链表插入一个节点
+//给双向链表插入一个节点
 
 //方法一：在链表的最后加入【简单】
 func InsertHeroNode(head *HeroNode, newHeroNode *HeroNode) {
@@ -26,6 +27,7 @@ func InsertHeroNode(head *HeroNode, newHeroNode *HeroNode) {
 
 	//3.将newHeroNode添加到链表最后
 	temp.next = newHeroNode
+	newHeroNode.pre = temp
 }
 
 //第二种方法，根据no大小进行排序【实用】
@@ -54,6 +56,10 @@ func InsertHeroNode2(head *HeroNode, newHeroNode *HeroNode) {
 		return
 	} else {
 		newHeroNode.next = temp.next
+		newHeroNode.pre = temp
+		if temp.next != nil {
+			temp.next.pre = newHeroNode
+		}
 		temp.next = newHeroNode
 	}
 
@@ -81,6 +87,37 @@ func ListHeroNode(head *HeroNode) {
 	}
 }
 
+//逆序打印
+func ListHeroNode2(head *HeroNode) {
+	//1.创建一个辅助结点
+	temp := head
+
+	//2.先判断这个链表是不是一个空链表
+	if temp.next == nil {
+		fmt.Println("link empty")
+		return
+	}
+
+	for {
+		if temp.next == nil {
+			break
+		}
+		temp = temp.next
+	}
+
+	for {
+
+		fmt.Printf("[%d, %s, %s]->", temp.no, temp.name, temp.nickName)
+
+		temp = temp.pre
+		//判断是否到最后
+		if temp.pre == nil {
+			break
+		}
+	}
+}
+
+//双向链表删除
 func DelHeroNode(head *HeroNode, id int) {
 	temp := head
 	flag := false
@@ -97,6 +134,10 @@ func DelHeroNode(head *HeroNode, id int) {
 
 	if flag {
 		temp.next = temp.next.next
+		if temp.next != nil {//如果删除的是最后一个节点，temp.next 是nil，没有pre
+			temp.next.pre = temp //此时上一行代码已经替换，不可以再用两个next
+		}
+
 	} else {
 		fmt.Println("sorry id不存在")
 	}
@@ -128,15 +169,10 @@ func main() {
 		nickName: "智多星",
 	}
 
-	//InsertHeroNode(head, hero1)
-	//InsertHeroNode(head, hero2)
-	//InsertHeroNode(head, hero3)
-	//InsertHeroNode(head, hero4)
+	InsertHeroNode(head, hero3)
+	InsertHeroNode(head, hero2)
+	InsertHeroNode(head, hero1)
+	InsertHeroNode(head, hero4)
 
-	InsertHeroNode2(head, hero3)
-	InsertHeroNode2(head, hero2)
-	InsertHeroNode2(head, hero1)
-	InsertHeroNode2(head, hero4)
-
-	ListHeroNode(head)
+	ListHeroNode2(head)
 }
