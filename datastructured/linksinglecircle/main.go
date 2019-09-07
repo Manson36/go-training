@@ -80,9 +80,9 @@ func DelCatNode(head *CatNode, id int) *CatNode {
 	}
 
 	//如果有两个及以上的节点
-	flag := true
+	//flag := true
 	for {
-		if temp.next == head { //说明比较到最后一个了，最后一个没有比较
+		if temp.next == head.next { //说明比较到最后一个了，最后一个没有比较
 			break
 		}
 
@@ -94,7 +94,7 @@ func DelCatNode(head *CatNode, id int) *CatNode {
 			//删除temp节点
 			helper.next = temp.next
 			fmt.Printf("删除的猫猫：%d", id)
-			flag = false
+			//flag = false
 			break
 		}
 
@@ -102,14 +102,21 @@ func DelCatNode(head *CatNode, id int) *CatNode {
 		helper = helper.next //移动，辅助删除temp节点
 	}
 
-	if flag {//flag为true，说明前面没有删除，在这里判断最后一个节点
-		if temp.no == id {
-			helper.next = temp.next
-			fmt.Printf("删除猫猫：%d", id)
-		}else {
-			fmt.Printf("没有找到id为%d的猫猫\n", id)
-		}
+	if temp.no == id {
+		helper.next = temp.next
+		fmt.Printf("删除猫猫：%d", id)
+	}else {
+		fmt.Printf("没有找到id为%d的猫猫\n", id)
 	}
+
+	//if flag {//flag为true，说明前面没有删除，在这里判断最后一个节点
+	//	if temp.no == id {
+	//		helper.next = temp.next
+	//		fmt.Printf("删除猫猫：%d", id)
+	//	}else {
+	//		fmt.Printf("没有找到id为%d的猫猫\n", id)
+	//	}
+	//}
 
 	return head
 }
@@ -137,7 +144,7 @@ func main() {
 	InsertCatNode(head, cat3)
 	ListCatNode(head)
 
-	head = DelCatNode(head, 11)
+	head = DelCatNode(head, 3)
 
 	ListCatNode(head)
 }
