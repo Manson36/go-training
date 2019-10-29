@@ -14,7 +14,7 @@ type CircleQueue struct {
 	tail int
 }
 
-//入队列
+//入队列:只能添加4个数，第五个会显示队列满
 func (this *CircleQueue) Push(val int) (err error) {
 	if this.IsFull() {
 		return errors.New("queue full")

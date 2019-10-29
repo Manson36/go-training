@@ -104,7 +104,7 @@ func main() {
 		Top: -1,
 	}
 
-	exp := "3+3*6-4-6"
+	exp := "30+30*6-4-6"
 	//定义一个index，帮助扫描exp
 	index := 0
 
@@ -113,6 +113,7 @@ func main() {
 	num2 := 0
 	result := 0
 	oper := 0
+	keepNum := "" //处理多位数
 
 	for {
 		ch := exp[index:index+1]//字符串
@@ -137,8 +138,23 @@ func main() {
 				}
 			}
 		} else {//说明是数
-			val, _ := strconv.ParseInt(ch, 10, 64)
-			numStack.Push(int(val))//直接传入的temp是ASCII值，需转换为本来的数
+			//处理多位数思路：
+			//1.使用字符串拼接
+			keepNum += ch
+
+			//2.每次向index后面一位测试是不是符号或者达到最后
+			if index == len(exp) - 1 {
+				val, _ := strconv.ParseInt(keepNum, 10, 64)
+				numStack.Push(int(val))
+			} else {
+				if operStack.IsOper(int([]byte(exp[index+1: index+2])[0])) {
+					val, _ := strconv.ParseInt(keepNum, 10, 64)
+					numStack.Push(int(val))
+					keepNum = ""//很关键，清空keepNum
+				}
+			}
+			//val, _ := strconv.ParseInt(ch, 10, 64)
+			//numStack.Push(int(val))//直接传入的temp是ASCII值，需转换为本来的数
 		}
 
 		//继续扫描，判断index是否到最后
